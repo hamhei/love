@@ -28,7 +28,7 @@ span.none{ display: none; }
 }
 div.app-box {
   width: 310px;
-  height: auto;
+  height: ;
   margin: 0%;
   padding: 5px;
   border-bottom: 1px solid #fff;

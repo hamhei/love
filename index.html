@@ -3,46 +3,70 @@
 <head>
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width" />
-  <title>恋人アプリストア</title>
+  <title>彼と使いたい♥アプリ特集</title>
 
   <link rel="stylesheet" type="text/css" href="index.css">
+  <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" /> -->
   <link href="images/256.png" rel="apple-touch-icon" />
   <link href="images/16.png" rel="shortcut icon" type="image/png"  />
   <link href="images/16.png" rel="icon" type="image/png"  />
 </head>
 
 <body>
-
-  <div id="container">
-
-    <h1><a href="https://github.com/hamhei/love">恋人アプリストア</a></h1>
-
-	<div id="sale-box">
-	  <img class="sale-tate" border="0" width="160" src="images/quiz/screenshot_top.png">
-	  <img class="sale-tate" border="0" width="160" src="images/alarm/screenshot_top.png">
+  <div data-role="page" style="margin:0px auto; position:relative; width: 320px;">
+    <div data-role="header" id="header">
+	  <h1>恋人アプリ</h1>
 	</div>
-	<div class="dummy-box">
-	  <span class="none"></span>
+	<div data-role="content" style="background-image:url(images/love_bg.jpg);">
+      <h3>彼と使いたいアプリ特集♥</h3>
+
+	  <div id="app-list">
+		<div class="app-box">
+		  <div class="app-left-box">
+			   <img class="app-icon" src="images/quiz/appicon.png" />
+		  </div>
+		  <div class="app-right-box">
+			<div class="app-title">
+			  恋人クイズ
+			</div>
+			<div class="app-detail">
+			  恋人のことなら何でも分かる?! ２人で遊べるクイズアプリ（近日公開予定）
+			</div>
+		  </div>
+		  <div class="app-link">
+		  </div>
+		  </div>
+		</div>
+		<div class="dummy-box">
+		  <span class="none"></span>
+		</div>
+		<div class="app-box">
+		  <div class="app-left-box">
+			   <img class="app-icon" src="images/alarm/appicon.png" />
+		  </div>
+		  <div class="app-right-box">
+			<div class="app-title">
+			  恋人アラーム
+			</div>
+			<div class="app-detail">
+			  『あなたの好きな人と 次に会えるまでの時間』を教えてくれる恋愛応援系アプリ♥彼の最新の呟きも教えてくれるよ♪
+			</div>
+		  </div>
+		  <div class="app-link">
+		  </div>
+		</div>
+		<div class="dummy-box">
+		  <span class="none"></span>
+		</div>
+	  </div>
 	</div>
-
-	<div id="app">
-
-    <h2>恋人クイズ</h2>
-    遊び方
-    <img border="0" width="320" src="images/quiz/Default.png">
-
-
-    <h2>恋人アラーム</h2>
-    メイン画面
-    <img border="0" width="320" src="images/alarm/Default.png">
-
-
-    <div class="footer">
-         All rights reserved  <a href="http://twitter.com/hamhei">恋人プロジェクト</a>
-    </div>
+	<div id="footer">
+	  ©恋人project
+	</div>
   </div>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<!-- <script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script> -->
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -51,6 +75,6 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
 try {
 var pageTracker = _gat._getTracker("UA-28049532-1");
 pageTracker._trackPageview();
-} catch(err) {}</script>"
+} catch(err) {}</script>
 </body>
 </html>
