@@ -2,17 +2,32 @@ body {
     margin: 0px;
     background-color: #FDE9E9;
     background-image: url("images/love_bg.jpg");
-    font-family: Helvetica, Arial, FreeSans, san-serif;
-    color: #000;
+    color: #FF203E;
 }
 
-a:link { color:#000 }
-a:visited { color:#000 }
-a:hover  { color:#000 }
-a:active { color: #000; }
+a:link { color:#FF203E; }
+a:visited { color:#FF203E; }
+a:hover  { color:#FF203E; }
+a:active { color: #FF203E; }
 
-#footer { text-align:center; padding-top:30px; font-style: italic; }
+#social { padding-top: 10px }
+#footer { text-align:center; padding-top:20px; font-style: italic; }
 
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+h3 {
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  background-color: #FC8580;
+  color: #FBF5EB;
+  padding: 10px 0px;
+  margin: 0px 0px;
+}
 
 div.box {
   width: 100%;
@@ -30,43 +45,52 @@ div.box {
 div.dummy-box{ clear: left; }
 span.none{ display: none; }
 
-#app-list {
-  margin-top: 5px;
-}
+#app-list {}
 a.app-box {
   background-color: #fff;
   display: block;
   width: 310px;
-  height: 57px;
+  height: 72px;
   margin: 0%;
   padding: 5px;
-  border-bottom: 2px solid #555;
+  border-bottom: 1px solid #ccc;
   text-decoration: none;
 }
 div.app-left-box{
   float: left;
-  width: 57px;
-  height: 57px;
+  width: auto;
+  height: auto;
   border: 0%;
 }
 img.app-icon{
-  width: 57px;
-  height: 57px;
+  width: 72px;
+  height: 72px;
 }
 
 div.app-right-box {
   float: left;
-  width: 243px;
+  width: 215px;
   margin: 0px 5px;
   border: 0%;
 }
 div.app-title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 div.app-detail {
-  font-size: 10px;
+  font-size: 12px;
+  color: #330000;
 }
 div.app-link {
-  font-size: 10px;
+  float: left;
+  border: 0%;
+  width: 10px;
+  height: auto;
+}
+img.arrow {
+  display: block;
+  width: 10px;
+  height: 15px;
+  margin-top: 28px;
+  text-align: center;
 }
