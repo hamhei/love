@@ -28,6 +28,13 @@ h3 {
   padding: 10px 0px;
   margin: 0px 0px;
 }
+h5 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0px 5px;
+  margin: 0px;
+}
 
 div.box {
   width: 100%;
@@ -93,4 +100,7 @@ img.arrow {
   height: 15px;
   margin-top: 28px;
   text-align: center;
+}
+#comic {
+  margin-top: 30px;
 }
