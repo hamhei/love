@@ -3,7 +3,7 @@
 <head>
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width" />
-  <title>å¥½ããªäººã¨ä½¿ã„ãŸã„â™¥ã‚«ãƒƒãƒ—ãƒ«å‘ã‘ã‚¢ãƒ—ãƒªç‰¹é›†</title>
+  <title>’¹¥’¤­’¤Ê’¿Í’¤È’»È’¤¤’¤¿’¤¤“¢¾’¥«’¥Ã’¥×’¥ë’¸þ’¤±’¥¢’¥×’¥ê’ÆÃ’½¸</title>
 
   <link rel="stylesheet" type="text/css" href="index.css">
   <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" /> -->
@@ -15,42 +15,22 @@
 <body>
   <div data-role="page" style="margin:0px auto; position:relative; width: 320px;">
     <div data-role="header" id="header">
-	  <h1>ã‚«ãƒƒãƒ—ãƒ«å‘ã‘ã‚¢ãƒ—ãƒªç‰¹é›†â™¥</h1>
+	  <h1>’¥«’¥Ã’¥×’¥ë’¸þ’¤±’¥¢’¥×’¥ê’ÆÃ’½¸“¢¾</h1>
 	</div>
 	<div data-role="content" style="background-image:url(images/love_bg.jpg);">
-      <h3>ã€Œæ‹äººã¨éŽã”ã™æ™‚é–“ã‚’ã‚ˆã‚Šæ¥½ã—ãã€</h3>
+      <h3>’¡Ö’Îø’¿Í’¤È’²á’¤´’¤¹’»þ’´Ö’¤ò’¤è’¤ê’³Ú’¤·’¤¯’¡×</h3>
 
 	  <div id="app-list">
-		<a href="#" class="app-box">
-		  <div class="app-left-box">
-			   <img class="app-icon" src="images/watch/appicon.png" />
-		  </div>
-		  <div class="app-right-box">
-			<div class="app-title">
-			  å½¼ãƒžã‚¬ï¼ˆè¿‘æ—¥å…¬é–‹äºˆå®šï¼ï¼‰
-			</div>
-			<div class="app-detail">
-			  æ„›ã—ã®å½¼ã‚’ã‚¦ã‚©ãƒƒãƒã—ã¦ã€å½¼ã®æœ€æ–°æƒ…å ±ã‚’ä¸€ç•ªã«ãƒã‚§ãƒƒã‚¯ã—ã¦ãƒ©ã‚¤ãƒãƒ«ã«å·®ã‚’ã¤ã‘ã‚â™ª 
-			</div>
-		  </div>
-		  <div class="app-link">
-			<img class="arrow" src="images/arrow.png" >
-		  </div>
-		</a>
-		<div class="dummy-box">
-		  <span class="none"></span>
-		</div>
-
 		<a href="http://itunes.apple.com/app/id495517616" class="app-box">
 		  <div class="app-left-box">
 			   <img class="app-icon" src="images/quiz/appicon.png" />
 		  </div>
 		  <div class="app-right-box">
 			<div class="app-title">
-			  æ‹äººã‚¯ã‚¤ã‚º
+			  ’Îø’¿Í’¥¯’¥¤’¥º
 			</div>
 			<div class="app-detail">
-			  æ‹äººã®ã“ã¨ãªã‚‰ä½•ã§ã‚‚åˆ†ã‹ã‚‹?! ï¼’äººã§éŠã¹ã‚‹ã‚¯ã‚¤ã‚ºã‚¢ãƒ—ãƒª
+			  ’Îø’¿Í’¤Î’¤³’¤È’¤Ê’¤é’²¿’¤Ç’¤â’Ê¬’¤«’¤ë?! ’£²’¿Í’¤Ç’Í·’¤Ù’¤ë’¥¯’¥¤’¥º’¥¢’¥×’¥ê
 			</div>
 		  </div>
 		  <div class="app-link">
@@ -66,10 +46,10 @@
 		  </div>
 		  <div class="app-right-box">
 			<div class="app-title">
-			  æ‹äººã‚¢ãƒ©ãƒ¼ãƒ 
+			  ’Îø’¿Í’¥¢’¥é’¡¼’¥à
 			</div>
 			<div class="app-detail">
-			  ã€Žå¥½ããªäººã¨æ¬¡ã«ä¼šãˆã‚‹ã¾ã§ã®æ™‚é–“ã€ã‚’æ•™ãˆã¦ãã‚Œã‚‹æ‹æ„›å¿œæ´ç³»ã‚¢ãƒ—ãƒªâ™¥
+			  ’¡Ø’¹¥’¤­’¤Ê’¿Í’¤È’¼¡’¤Ë’²ñ’¤¨’¤ë’¤Þ’¤Ç’¤Î’»þ’´Ö’¡Ù’¤ò’¶µ’¤¨’¤Æ’¤¯’¤ì’¤ë’Îø’°¦’±þ’±ç’·Ï’¥¢’¥×’¥ê“¢¾
 			</div>
 		  </div>
 		  <div class="app-link">
@@ -82,18 +62,18 @@
 	  </div>
 	</div>
 	<div id="comic">
-	  <h3>ãƒžãƒ³ã‚¬ã§åˆ†ã‹ã‚‹æ‹äººã‚¯ã‚¤ã‚º</h3>
+	  <h3>’¥Þ’¥ó’¥¬’¤Ç’Ê¬’¤«’¤ë’Îø’¿Í’¥¯’¥¤’¥º</h3>
 	  <img src="images/quiz/comic1.jpg" width="320">
-	  <h5>ã‚ªãƒžã‚±</h5>
+	  <h5>’¥ª’¥Þ’¥±</h5>
 	  <img src="images/quiz/comic2.jpg" width="320">
 	</div>
 	<div id="social">
-	  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hamhei.github.com/love/" data-lang="ja" >ã¤ã„ãƒ¼ã¨</a>
+	  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hamhei.github.com/love/" data-lang="ja" >’¤Ä’¤¤’¡¼’¤È</a>
 	  <div class="fb-like" data-href="http://hamhei.github.com/love/" data-send="false" data-width="320" data-show-faces="false"></div>
 	</div>
 	<div id="footer">
-	  <h5>ã”æ„è¦‹ãƒ»ã”æ„Ÿæƒ³ã‚’ãŠå¾…ã¡ã—ã¦ã„ã¾ã™</h5>
-	  Â©æ‹äººproject
+	  <h5>’¤´’°Õ’¸«’¡¦’¤´’´¶’ÁÛ’¤ò’¤ª’ÂÔ’¤Á’¤·’¤Æ’¤¤’¤Þ’¤¹</h5>
+	  ©’Îø’¿Íproject
 	</div>
   </div>
 
