@@ -53,13 +53,6 @@ div.dummy-box{ clear: left; }
 span.none{ display: none; }
 
 #app-list {}
-div.social-horizontal {
-  float: left;
-  width: auto;
-  height: auto;
-  margin: 0px 5px;
-  border: 0%;
-}
 a.app-box {
   background-color: #fff;
   display: block;
